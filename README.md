@@ -12,10 +12,10 @@
   pip3 install httplib2
   ```
 * YouTube アカウントで登録しているチャンネル一覧からchannel_idを取得します.
+  channel_id の一覧がバックアップファイル youtube-channel_id-list.txt に書き出されます.
   ```
   python get-susc-channel.py
   ```
-  channel_id 一覧を バックアップファイル youtube-channel_id-list.txt に書き出します.
 * バックアップファイル youtube-channel_id-list.txt にある channel_id を全て目的のアカウントに登録します.
   ```
   python insert-from-channel_id-list.py 
